@@ -1,4 +1,4 @@
-# FizzBuzz kata
+# FizzBuzz Kata
 Base repo with a single failing test, designed to be a semi-guided first stop for practicing TDD, we'll emphasise the following:
 - [Red] Start by writing a failing test for the simplest behaviour.
 - [Green] Implement the simplest amount of code needed to make the test pass.
@@ -30,3 +30,10 @@ Fizz
 14
 FizzBuzz
 ```
+
+## Optional Extension:
+One version of the FizzBuzz game in real life adds an extra Fizz or Buzz whenever one of the digits ('3' or '5') appears in the number itself (for example, see [Dr Mike's Math Games for Kids](https://www.dr-mikes-math-games-for-kids.com/fizz-buzz.html)).
+
+So, '3' would become FizzFizz, '5' would become BuzzBuzz, '15' would be FizzBuzzBuzz.
+
+Modify your program to reflect this requirement while maintaining your discipline in using red-green-refactor cycles.
